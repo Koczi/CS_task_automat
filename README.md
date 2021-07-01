@@ -1,1 +1,1 @@
-"# CS_task_automat" 
+Zadanie testowe JAVA+Selenium.
