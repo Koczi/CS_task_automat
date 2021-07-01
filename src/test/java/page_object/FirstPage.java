@@ -37,15 +37,6 @@ public class FirstPage {
     @FindBy(id = "form_button_next")
     WebElement nextBtn;
 
-//    By firstNameInput = By.id("id_first_name");
-//    By lastNameInput = By.id("id_last_name");
-//    By emailInput = By.id("id_email");
-//    By phoneInput = By.id("id_phone");
-//    By peselInput = By.id("id_pesel");
-//    By idNumberInput = By.id("id_id_numer");
-//    By bornDateInput = By.id("id_date");
-//    By nextBtn = By.id("form_button_next");
-
     public void sendForm(String firstName, String lastName, String email, String phone, String pesel, String idNumber, String bornDate){
         firstNameInput.sendKeys(firstName);
         lastNameInput.sendKeys(lastName);
